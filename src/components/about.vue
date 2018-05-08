@@ -4,6 +4,18 @@
       <div>
         <div style="display: inline-block;text-align: center;margin-top: 135px">
           <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >GNOME.Asia<span style="color:#66ccff;">18</span></p>-->
+        <h4 style="background-color: black;color: white;padding: 20px 20px;">{{$t("About.news")}}</h4>
+        </div>
+        <p style="font-weight: 700;font-size: x-large">————</p>
+        <p style="font-weight: 600;font-size: medium;color:gray">April 27, 2018</p>
+        <a style="font-weight: 600;font-size: large;" href="https://www.gnome.org/news/2018/04/gnome-asia-summit-2018-call-for-papers-is-now-open/">GNOME.Asia Summit 2018 Call for Papers is now open</a>
+        <p>GNOME.Asia Summit 2018 invites proposals for presentations at the conference. GNOME.Asia Summit is the featured annual GNOME conference in Asia. It focuses primarily on the GNOME desktop, but also covers applications and the platform development tools. The summit brings together the GNOME community in Asia to provide a forum for users, developers, foundation leaders, governments 
+          <a href="https://www.gnome.org/news/2018/04/gnome-asia-summit-2018-call-for-papers-is-now-open/">[…]</a>
+          </p>
+      </div>
+      <div>
+        <div style="display: inline-block;text-align: center;margin-top: 135px">
+          <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >GNOME.Asia<span style="color:#66ccff;">18</span></p>-->
         <h4 style="background-color: black;color: white;padding: 20px 20px;">GNOME.Asia<span style="color: #66ccff"> 2018</span></h4>
         </div>
         <p style="font-weight: 700;font-size: x-large">————</p>

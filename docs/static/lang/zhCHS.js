@@ -43,6 +43,7 @@ module.exports={
     foot1:'学生开源年会',
   },
   About:{
+    news:"新聞",
     aboutp1:'GNOME 基金会亚洲委员会在 2008 年成立，旨在通过举办 GNOME.Asia 亚洲峰会在亚洲地区推广GNOME项目以及自由开源软体的理念。GNOME.Asia 峰会与 GUADEC 峰会和 Boston 峰会一起成为了 GNOME 基金会每年的全球三大活动。此前的 GNOME.Asia 分别在北京、越南胡志明、台北、印度班加罗尔、香港和韩国首尔、印尼雅加达和重庆举办。',
 
     hoping:'年会展望',
