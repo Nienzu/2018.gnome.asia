@@ -14,7 +14,7 @@
 
 .pic1{
     display: flex;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg-taipei-101-3.jpg");
     background-position: center;
     backface-visibility: hidden;
     background-size:cover;
@@ -86,7 +86,7 @@
 .main{
     display: flex;
     justify-content: center;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg-taipei-101-3.jpg");
     background-size: cover;
     position: relative;
     transition: 0.3s ease-in-out;
@@ -331,7 +331,7 @@
   }
   .pic1{
     display: flex;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg-taipei-101-3.jpg");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -348,7 +348,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/bg-taipei-101-3.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
