@@ -17,7 +17,6 @@
       components: {homeImage, About},
       computed: {
         h_screen: function(){
-            console.log(123)
             return document.documentElement.clientHeight
         },
         h1: function () {
