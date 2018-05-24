@@ -2,13 +2,13 @@
    <div>
     <ul id="dropdown1" class="dropdown-content tit1">
       <li>
-        <a @click="toEN">English</a>
+        <a @click="() => switchLanguage('en')">English</a>
       </li>
       <li>
-        <a @click="toZHCHS">简体中文</a>
+        <a @click="() => switchLanguage('zhCHS')">简体中文</a>
       </li>
       <li>
-        <a @click="toZHCHT">繁体中文</a>
+        <a @click="() => switchLanguage('zhCHT')">繁体中文</a>
       </li>
     </ul>
 
@@ -40,13 +40,13 @@
     </nav>
     <ul id="dropdown2" class="dropdown-content tit1">
       <li>
-        <a @click="toEN">English</a>
+        <a @click="() => switchLanguage('en')">English</a>
       </li>
       <li>
-        <a @click="toZHCHS">简体中文</a>
+        <a @click="() => switchLanguage('zhCHS')">简体中文</a>
       </li>
       <li>
-        <a @click="toZHCHT">繁体中文</a>
+        <a @click="() => switchLanguage('zhCHT')">繁体中文</a>
       </li>
     </ul>
     <ul class="sidenav" id="mobile-demo">
@@ -119,7 +119,6 @@ export default {
     name: "nav",
     props: ['name'],
     methods: {
-
       open1() {
         $('#modalLogin').modal('open');
       },
@@ -130,28 +129,16 @@ export default {
       closeNav() {
         $('.sidenav').sidenav('close');
       },
-      toZHCHS(){
-        localStorage.lang='zhCHS'
-        this.$i18n.locale='zhCHS'
-        window.location.reload()
-      },
-      toZHCHT(){
-        localStorage.lang='zhCHT'
-        this.$i18n.locale='zhCHT'
-        window.location.reload()
-      },
-      toEN(){
-        localStorage.lang='en'
-        this.$i18n.locale='en'
+      switchLanguage(locale) {
+        localStorage.lang = locale
+        this.$i18n.locale = locale
         window.location.reload()
       }
-
     },
-
-  }
-  window.onload = function () {
-    $(".dropdown-trigger").dropdown();
-    $('.modal').modal();
+    mounted() {
+      $(".dropdown-trigger").dropdown();
+      $('.modal').modal();
+    }
   }
 </script>
 
