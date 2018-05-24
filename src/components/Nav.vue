@@ -1,17 +1,6 @@
 <template>
    <div>
-    <ul id="dropdown1" class="dropdown-content tit1">
-      <li>
-        <a @click="() => switchLanguage('en')">English</a>
-      </li>
-      <li>
-        <a @click="() => switchLanguage('zhCHS')">简体中文</a>
-      </li>
-      <li>
-        <a @click="() => switchLanguage('zhCHT')">繁体中文</a>
-      </li>
-    </ul>
-
+     <language-switcher id="dropdown1"/>
 
     <nav class="title1">
       <div class="nav-wrapper">
@@ -38,17 +27,7 @@
         </ul>
       </div>
     </nav>
-    <ul id="dropdown2" class="dropdown-content tit1">
-      <li>
-        <a @click="() => switchLanguage('en')">English</a>
-      </li>
-      <li>
-        <a @click="() => switchLanguage('zhCHS')">简体中文</a>
-      </li>
-      <li>
-        <a @click="() => switchLanguage('zhCHT')">繁体中文</a>
-      </li>
-    </ul>
+    <language-switcher id="dropdown2"/>
     <ul class="sidenav" id="mobile-demo">
       <li @click="closeNav">
         <router-link to="/">{{$t("Nav.home")}}</router-link>
@@ -115,7 +94,11 @@
 
 
 <script>
+import LanguageSwitcher from './widgets/LanguageSwitcher.vue';
 export default {
+    components: {
+      'language-switcher': LanguageSwitcher
+    },
     name: "nav",
     props: ['name'],
     methods: {
@@ -128,11 +111,6 @@ export default {
       },
       closeNav() {
         $('.sidenav').sidenav('close');
-      },
-      switchLanguage(locale) {
-        localStorage.lang = locale
-        this.$i18n.locale = locale
-        window.location.reload()
       }
     },
     mounted() {
