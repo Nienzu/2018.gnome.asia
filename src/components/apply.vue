@@ -85,7 +85,7 @@
             </div>
 
             <div class="button" style="margin-bottom: 10px">
-              <button class="waves-effect waves-light btn modal-trigger back2" @click="open2" style="vertical-align: bottom">报名成为志愿者</button>
+              <button class="waves-effect waves-light btn modal-trigger back2" @click="() => openModal(2)" style="vertical-align: bottom">报名成为志愿者</button>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@
 
 
             <div class="button" style="margin-bottom: 10px">
-              <a class="waves-effect waves-light btn modal-trigger back3" @click="open1">立即获取入场券</a>
+              <a class="waves-effect waves-light btn modal-trigger back3" @click="() => openModal(1)">立即获取入场券</a>
             </div>
           </div>
         </div>
@@ -304,17 +304,9 @@ let h_screen = window.screen.height;
 export default {
   name: "apply",
   methods: {
-    open1() {
+    openModal(modalNumber) {
       $(".modal").modal();
-      $("#modal1").modal("open");
-    },
-    open2() {
-      $(".modal").modal();
-      $("#modal2").modal("open");
-    },
-    open3() {
-      $(".modal").modal();
-      $("#modal3").modal("open");
+      $(`#modal${modalNumber}`).modal("open");
     },
     sub() {
       $.ajax({

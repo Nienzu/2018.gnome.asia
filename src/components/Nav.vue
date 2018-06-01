@@ -1,17 +1,6 @@
 <template>
    <div>
-    <ul id="dropdown1" class="dropdown-content tit1">
-      <li>
-        <a @click="toEN">English</a>
-      </li>
-      <li>
-        <a @click="toZHCHS">简体中文</a>
-      </li>
-      <li>
-        <a @click="toZHCHT">繁体中文</a>
-      </li>
-    </ul>
-
+     <language-switcher id="dropdown1"/>
 
     <nav class="title1">
       <div class="nav-wrapper">
@@ -38,17 +27,7 @@
         </ul>
       </div>
     </nav>
-    <ul id="dropdown2" class="dropdown-content tit1">
-      <li>
-        <a @click="toEN">English</a>
-      </li>
-      <li>
-        <a @click="toZHCHS">简体中文</a>
-      </li>
-      <li>
-        <a @click="toZHCHT">繁体中文</a>
-      </li>
-    </ul>
+    <language-switcher id="dropdown2"/>
     <ul class="sidenav" id="mobile-demo">
       <li @click="closeNav">
         <router-link to="/">{{$t("Nav.home")}}</router-link>
@@ -115,11 +94,14 @@
 
 
 <script>
+import LanguageSwitcher from './widgets/LanguageSwitcher.vue';
 export default {
+    components: {
+      'language-switcher': LanguageSwitcher
+    },
     name: "nav",
     props: ['name'],
     methods: {
-
       open1() {
         $('#modalLogin').modal('open');
       },
@@ -129,29 +111,12 @@ export default {
       },
       closeNav() {
         $('.sidenav').sidenav('close');
-      },
-      toZHCHS(){
-        localStorage.lang='zhCHS'
-        this.$i18n.locale='zhCHS'
-        window.location.reload()
-      },
-      toZHCHT(){
-        localStorage.lang='zhCHT'
-        this.$i18n.locale='zhCHT'
-        window.location.reload()
-      },
-      toEN(){
-        localStorage.lang='en'
-        this.$i18n.locale='en'
-        window.location.reload()
       }
-
     },
-
-  }
-  window.onload = function () {
-    $(".dropdown-trigger").dropdown();
-    $('.modal').modal();
+    mounted() {
+      $(".dropdown-trigger").dropdown();
+      $('.modal').modal();
+    }
   }
 </script>
 
