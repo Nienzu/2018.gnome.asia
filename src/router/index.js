@@ -10,20 +10,19 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       return {
         selector: to.hash
       }
     }
   },
-  routes: [
-    {
+  routes: [{
       path: '/',
       name: 'home',
       component: home,
-      meta:{
-        Num:0
+      meta: {
+        Num: 0
       }
     },
     // {
@@ -37,20 +36,19 @@ export default new Router({
     {
       path: '/aboutUs',
       name: '/aboutUs',
-      component:aboutUs,
-      meta:{
-        Num:1
+      component: aboutUs,
+      meta: {
+        Num: 1
       }
     },
-    {
+    /*{
       path: '/apply',
       name: '/apply',
-      component:apply,
-      meta:{
-        Num:1
+      component: apply,
+      meta: {
+        Num: 1
       }
     },
+    */
   ]
 })
-
-

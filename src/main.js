@@ -12,27 +12,25 @@ import zhCHT from '../static/lang/zhCHT'
 Vue.use(VueI18n)
 const i18n = new VueI18n({
   locale: localStorage.lang,
-  messages:{
+  messages: {
     'en': en,
     'zhCHS': zhCHS,
     'zhCHT': zhCHT,
   }
 })
 
-
 /* eslint-disable no-new */
-new Vue({
+var mainVue = new Vue({
   el: '#app',
   router,
   i18n,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })
 
-$(document).ready(function(){
+$(document).ready(function () {
   // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
   $('.modal').modal();
 });
-
-
-
