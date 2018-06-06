@@ -41,7 +41,7 @@ export default new Router({
         Num: 1
       }
     },
-    /*{
+    {
       path: '/apply',
       name: '/apply',
       component: apply,
@@ -49,6 +49,6 @@ export default new Router({
         Num: 1
       }
     },
-    */
+    
   ]
 })
