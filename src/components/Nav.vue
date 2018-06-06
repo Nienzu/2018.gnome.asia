@@ -47,41 +47,6 @@
 
     </ul>
 
-     <!--登录模态框
-     <div id="modalLogin" class="modal">
-
-       <div class="modal-content">
-         <h4 style="color: black">登录</h4>
-         <form id="login">
-           <div class="row">
-             <div class="input-field col s12">
-               <input value="email" id="email1" type="email" class="validate">
-               <label for="email1">邮箱</label>
-             </div>
-           </div>
-
-           <div class="row">
-             <div class="input-field col s12">
-               <input id="password2" type="password" class="validate">
-               <label for="password2">密码</label>
-             </div>
-           </div>
-
-           <div>
-             <p></p>
-           </div>
-         </form>
-
-           <div class="modal-footer">
-             <router-link to="" class="btn waves-effect waves-light" >注册
-             </router-link>
-             <button class="btn waves-effect waves-light" @click="subLogin">登录
-             </button>
-           </div>
-
-       </div>
-     </div>
-     -->
   </div>
 
 
