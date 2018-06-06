@@ -1,13 +1,14 @@
 <template>
     <div :class="title">
+      <!--
       <a v-if="lang ==='zhCHS'" class="homeButton1" href="#about"></a>
       <a v-else-if="lang==='en'" class="enHomeButton1" href="#about"></a>
       <a v-else class="twHomeButton1" href="#about"></a>
 
-
       <router-link v-if="lang ==='zhCHS'" to="/apply" class="homeButton2"></router-link>
       <router-link v-else-if="lang==='en'" to="/apply" class="enHomeButton2"></router-link>
       <router-link v-else to="/apply" class="twHomeButton2"></router-link>
+      -->
     </div>
 </template>
 

@@ -14,7 +14,7 @@
 
 .pic1{
     display: flex;
-    background-image: url("../img/bg-taipei-101-3.jpg");
+    background-image: url("../img/bg-taipei-101-1.jpg");
     background-position: center;
     backface-visibility: hidden;
     background-size:cover;
@@ -43,7 +43,7 @@
 }
 .pic3{
   display: flex;
-  background-image: url("../img/bg-taipei-101.jpg");
+  background-image: url("../img/bg-taipei-101-3.jpg");
   background-position: center;
   backface-visibility: hidden;
   background-size:cover;
