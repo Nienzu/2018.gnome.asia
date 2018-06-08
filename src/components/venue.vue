@@ -11,8 +11,10 @@
         Taipei Travel/Venue Information</h1>
     <h4 id="Conference-Position">Visa</h4>
     <ul>
+        <li><i class="medium material-icons ">chevron_right</i><a href="https://www.boca.gov.tw/mp-2.html">Bureau of Consular Affairs</a></li>        
         <li><i class="medium material-icons ">chevron_right</i><a href="https://www.boca.gov.tw/lp-181-2-xCat-2.html">eVisa</a></li>
         <li><i class="medium material-icons ">chevron_right</i><a href="https://www.boca.gov.tw/cp-149-270-9fd80-2.html">Visa-Exempt Entry</a></li>
+        <li><i class="medium material-icons ">chevron_right</i><a href="https://www.boca.gov.tw/cp-161-264-cdb6a-2.html">Visa Fees</a></li>
     </ul>
     <h4 id="Conference-Position">Conference Position</h4>
     <ul>
