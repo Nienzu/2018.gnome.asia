@@ -1,6 +1,6 @@
 <template>
   <div>
-  <img src="../../static/img/background.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
+  <img src="../../static/img/background.jpg" class="responsive-img" style="position: fixed" >
   <div class="container">
     <div class="baoming">
       <div class="row">
