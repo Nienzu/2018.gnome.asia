@@ -8,6 +8,7 @@ module.exports={
     aboutUs:'关于我们',
     community:'社区',
     lang:'语言',
+    venue:'旅遊資訊',
   },
   AboutUs:{
     about:'工作人员名单',

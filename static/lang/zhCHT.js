@@ -8,6 +8,7 @@ module.exports={
     aboutUs:'關於我們',
     lang:'語言',
     community:'社區',
+    venue:'旅遊資訊',
   },  
   About:{
     news:"新聞",

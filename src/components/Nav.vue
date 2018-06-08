@@ -10,6 +10,9 @@
           <li>
             <router-link to="/">{{$t("Nav.home")}}</router-link>
           </li>
+          <li>
+            <router-link to="/venue">{{$t("Nav.venue")}}</router-link>
+          </li>
           <li class="t1">
             <router-link to="">{{$t("Nav.agenda")}}</router-link>
           </li>

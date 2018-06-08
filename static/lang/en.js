@@ -8,6 +8,7 @@ module.exports={
     thanks:'Thanks',
     aboutUs:'About us',
     lang:'Language',
+    venue:'Venue',
 
   },
   About:{
