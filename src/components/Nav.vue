@@ -33,14 +33,14 @@
       <li @click="closeNav">
         <router-link to="/">{{$t("Nav.home")}}</router-link>
       </li>
+      <li @click="closeNav">
+            <router-link to="/venue">{{$t("Nav.venue")}}</router-link>
+          </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.agenda")}}</router-link>
       </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
-      </li>
-      <li class="t3" @click="closeNav">
-        <router-link to="/community">{{$t("Nav.community")}}</router-link>
       </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.thanks")}}</router-link>
