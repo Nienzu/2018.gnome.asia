@@ -1,6 +1,23 @@
 # GNOME.Asia 2018 Summit
 [![Build Status](https://www.travis-ci.org/GNOME-Asia/2018.gnome.asia.svg?branch=master)](https://www.travis-ci.org/GNOME-Asia/2018.gnome.asia)
 
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
 ## About 
 
 GNOME.Asia Summit is the featured annual GNOME Conference in Asia. The event focuses primarily on the GNOME desktop, but also covers applications and the development platform tools. It brings together the GNOME community in Asia to provide a forum for users, developers, foundation leaders, governments and businesses to discuss the present technology and future developments.GNOME.Asia Summits have been held in Beijing, Ho-Chi-Minh City, Taipei, Bangalore, Hong Kong, Seoul, Beijing, Depok, New Delhi, Chongqing respectively over the last ten years.
