@@ -395,7 +395,7 @@
   
   .pic2{
     display: flex;
-    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-image: url("../img/bg-taipei-101-2-mobile.jpg");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -408,7 +408,7 @@
   }
   .pic3{
     display: flex;
-    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-image: url("../img/bg-taipei-101-3-mobile.jpg");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
