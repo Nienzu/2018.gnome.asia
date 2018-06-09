@@ -1,6 +1,6 @@
 <template>
     <div>
-      <div v-bind:class="bgclass" style="{height:h1}">
+      <div v-bind:class="bgclass"  style="{height:h1}">
         <home-image></home-image>
       </div>
       <About :style="{height:h2}" id="about"></About>
@@ -25,7 +25,7 @@ export default {
       return this.h_screen + "px";
     },
     bgclass: function(){
-        return "pic"+Math.floor(Math.random()*3+1);
+        return "pic"+Math.floor(Math.random()*3+1)+" responsive-img";
     }
   }
 

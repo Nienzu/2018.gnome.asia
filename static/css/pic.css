@@ -381,7 +381,7 @@
   }
   .pic1{
     display: flex;
-    background-image: url("../img/bg-taipei-101-3.jpg");
+    background-image: url("../img/bg-taipei-101-1.jpg");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -391,7 +391,33 @@
     flex:1 1 auto;
     margin: 0 auto;
     transition: 0.3s ease-in-out;
-
+  }
+  
+  .pic2{
+    display: flex;
+    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    backface-visibility: hidden;
+    height: 100%;
+    flex:1 1 auto;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+  }
+  .pic3{
+    display: flex;
+    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    backface-visibility: hidden;
+    height: 100%;
+    flex:1 1 auto;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
   }
   .main{
     display: flex;
