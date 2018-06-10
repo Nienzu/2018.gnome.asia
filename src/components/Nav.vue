@@ -62,7 +62,7 @@ export default {
     components: {
       'language-switcher': LanguageSwitcher
     },
-    name: "nav",
+    name: "NavBar",
     props: ['name'],
     methods: {
       open1() {

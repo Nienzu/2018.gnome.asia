@@ -1,6 +1,6 @@
 <template>
 <div>
-    <img src="../../static/img/background.jpg" :style="{height:h1}" style="width: 100%;position: fixed" >
+    <img src="../../static/img/background.jpg" class="responsive-img" style="position: fixed" >
 <div class="container">
     <div class="venue">
         <div class="row">
@@ -51,7 +51,6 @@
             <i class="medium material-icons ">chevron_right</i>
                 <a href="https://www.booking.com/hotel/tw/may-rooms-taipei-ntu-tai-bei-shi.html?label=gen173nr-1DCAEoggJCAlhYSDNYBGjnAYgBAZgBMLgBB8gBDNgBA-gBAZICAXmoAgM;sid=bdb39c241eb5e464353160012ec3fd94;all_sr_blocks=298752506_110568305_1_1_0;bshb=0;checkin=2018-08-09;checkout=2018-08-15;dest_id=-2637882;dest_type=city;dist=0;group_adults=1;group_children=0;hapos=1;highlighted_blocks=298752506_110568305_1_1_0;hpos=1;no_rooms=1;room1=A;sb_price_type=total;srepoch=1523455317;srfid=efcaa30bef77b446e580192c79c8b22ae8f5e325X1;srpvid=101f62a9eeda0167;type=total;ucfs=1&amp;#hotelTmpl"
                     >Information Link</a>
-            
         </li>
         <li><i class="medium material-icons ">chevron_right</i>
             Location (Very close to NTUST)
@@ -207,6 +206,7 @@
         <li><i class="medium material-icons ">chevron_right</i>動物園 Taipei Zoo</li>
     </ul>
 </div>
+
 </div>
 </div>
 </div>
@@ -221,23 +221,28 @@ export default {
 };
 </script>
 
+
+
 <style scoped>
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;
+}
 
-  .alert-info {
+.alert-info {
   color: #0c5460;
   background-color: #d1ecf1;
-  border-color: #bee5eb; }
-  .alert-info hr {
-    border-top-color: #abdde5; }
-  .alert-info .alert-link {
-    color: #062c33; }
-
+  border-color: #bee5eb;
+}
+.alert-info hr {
+  border-top-color: #abdde5;
+}
+.alert-info .alert-link {
+  color: #062c33;
+}
 
 .markdown-body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
@@ -925,7 +930,7 @@ export default {
   max-height: calc(70vh - 100px);
   overflow: auto;
 }
-.ui-toc-dropdown[dir="rtl"] .nav {
+.ui-toc-dropdown[dir="rtl"] .navnav {
   padding-right: 0;
   letter-spacing: 0.0029em;
 }
@@ -934,110 +939,110 @@ export default {
   text-overflow: ellipsis;
   white-space: pre;
 }
-.ui-toc-dropdown .nav > li > a {
+.ui-toc-dropdown .navnav > li > a {
   display: block;
   padding: 4px 20px;
   font-size: 13px;
   font-weight: 500;
   color: #767676;
 }
-.ui-toc-dropdown .nav > li:first-child:last-child > ul,
+.ui-toc-dropdown .navnav > li:first-child:last-child > ul,
 .ui-toc-dropdown .toc.expand ul {
   display: block;
 }
-.ui-toc-dropdown .nav > li > a:focus,
-.ui-toc-dropdown .nav > li > a:hover {
+.ui-toc-dropdown .navnav > li > a:focus,
+.ui-toc-dropdown .navnav > li > a:hover {
   padding-left: 19px;
   color: #000;
   text-decoration: none;
   background-color: transparent;
   border-left: 1px solid #000;
 }
-.ui-toc-dropdown[dir="rtl"] .nav > li > a:focus,
-.ui-toc-dropdown[dir="rtl"] .nav > li > a:hover {
+.ui-toc-dropdown[dir="rtl"] .navnav > li > a:focus,
+.ui-toc-dropdown[dir="rtl"] .navnav > li > a:hover {
   padding-right: 19px;
   border-left: none;
   border-right: 1px solid #000;
 }
-.ui-toc-dropdown .nav > .active:focus > a,
-.ui-toc-dropdown .nav > .active:hover > a,
-.ui-toc-dropdown .nav > .active > a {
+.ui-toc-dropdown .navnav > .active:focus > a,
+.ui-toc-dropdown .navnav > .active:hover > a,
+.ui-toc-dropdown .navnav > .active > a {
   padding-left: 18px;
   font-weight: 700;
   color: #000;
   background-color: transparent;
   border-left: 2px solid #000;
 }
-.ui-toc-dropdown[dir="rtl"] .nav > .active:focus > a,
-.ui-toc-dropdown[dir="rtl"] .nav > .active:hover > a,
-.ui-toc-dropdown[dir="rtl"] .nav > .active > a {
+.ui-toc-dropdown[dir="rtl"] .navnav > .active:focus > a,
+.ui-toc-dropdown[dir="rtl"] .navnav > .active:hover > a,
+.ui-toc-dropdown[dir="rtl"] .navnav > .active > a {
   padding-right: 18px;
   border-left: none;
   border-right: 2px solid #000;
 }
-.ui-toc-dropdown .nav .nav {
+.ui-toc-dropdown .navnav .navnav {
   display: none;
   padding-bottom: 10px;
 }
-.ui-toc-dropdown .nav > .active > ul {
+.ui-toc-dropdown .navnav > .active > ul {
   display: block;
 }
-.ui-toc-dropdown .nav .nav > li > a {
+.ui-toc-dropdown .navnav .navnav > li > a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 30px;
   font-size: 12px;
   font-weight: 400;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > a {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > a {
   padding-right: 30px;
 }
-.ui-toc-dropdown .nav .nav > li > ul > li > a {
+.ui-toc-dropdown .navnav .navnav > li > ul > li > a {
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 40px;
   font-size: 12px;
   font-weight: 400;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > ul > li > a {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > ul > li > a {
   padding-right: 40px;
 }
-.ui-toc-dropdown .nav .nav > li > a:focus,
-.ui-toc-dropdown .nav .nav > li > a:hover {
+.ui-toc-dropdown .navnav .navnav > li > a:focus,
+.ui-toc-dropdown .navnav .navnav > li > a:hover {
   padding-left: 29px;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > a:focus,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > a:hover {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > a:focus,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > a:hover {
   padding-right: 29px;
 }
-.ui-toc-dropdown .nav .nav > li > ul > li > a:focus,
-.ui-toc-dropdown .nav .nav > li > ul > li > a:hover {
+.ui-toc-dropdown .navnav .navnav > li > ul > li > a:focus,
+.ui-toc-dropdown .navnav .navnav > li > ul > li > a:hover {
   padding-left: 39px;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > ul > li > a:focus,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > li > ul > li > a:hover {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > ul > li > a:focus,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > li > ul > li > a:hover {
   padding-right: 39px;
 }
-.ui-toc-dropdown .nav .nav > .active:focus > a,
-.ui-toc-dropdown .nav .nav > .active:hover > a,
-.ui-toc-dropdown .nav .nav > .active > a {
+.ui-toc-dropdown .navnav .navnav > .active:focus > a,
+.ui-toc-dropdown .navnav .navnav > .active:hover > a,
+.ui-toc-dropdown .navnav .navnav > .active > a {
   padding-left: 28px;
   font-weight: 500;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active:focus > a,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active:hover > a,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active > a {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active:focus > a,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active:hover > a,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active > a {
   padding-right: 28px;
 }
-.ui-toc-dropdown .nav .nav > .active > .nav > .active:focus > a,
-.ui-toc-dropdown .nav .nav > .active > .nav > .active:hover > a,
-.ui-toc-dropdown .nav .nav > .active > .nav > .active > a {
+.ui-toc-dropdown .navnav .navnav > .active > .navnav > .active:focus > a,
+.ui-toc-dropdown .navnav .navnav > .active > .navnav > .active:hover > a,
+.ui-toc-dropdown .navnav .navnav > .active > .navnav > .active > a {
   padding-left: 38px;
   font-weight: 500;
 }
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active > .nav > .active:focus > a,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active > .nav > .active:hover > a,
-.ui-toc-dropdown[dir="rtl"] .nav .nav > .active > .nav > .active > a {
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active > .navnav > .active:focus > a,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active > .navnav > .active:hover > a,
+.ui-toc-dropdown[dir="rtl"] .navnav .navnav > .active > .navnav > .active > a {
   padding-right: 38px;
 }
 .markdown-body[lang^="ja"] {
