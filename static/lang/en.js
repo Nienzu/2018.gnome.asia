@@ -5,7 +5,7 @@ module.exports={
     agenda:'Agenda',
     news:'News',
     community:'Community',
-    thanks:'Thanks',
+    staff:'Staff',
     aboutUs:'About us',
     lang:'Language',
     venue:'Venue',

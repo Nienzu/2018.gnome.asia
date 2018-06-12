@@ -4,7 +4,7 @@ module.exports={
     apply:'報名',
     agenda:'議程',
     news:'動態',
-    thanks:'感謝',
+    staff:'工作人員',
     aboutUs:'關於我們',
     lang:'語言',
     community:'社區',

@@ -17,10 +17,7 @@
             <router-link to="">{{$t("Nav.agenda")}}</router-link>
           </li>
           <li class="t1">
-            <router-link to="">{{$t("Nav.news")}}</router-link>
-          </li>
-          <li class="t1">
-            <router-link to="">{{$t("Nav.thanks")}}</router-link>
+            <router-link to="">{{$t("Nav.staff")}}</router-link>
           </li>
           <li ><a class="dropdown-trigger"  data-target="dropdown1">{{$t("Nav.lang")}}<i
             class="material-icons right">arrow_drop_down</i></a></li>
@@ -40,10 +37,7 @@
         <router-link to="" class="t1">{{$t("Nav.agenda")}}</router-link>
       </li>
       <li>
-        <router-link to="" class="t1">{{$t("Nav.news")}}</router-link>
-      </li>
-      <li>
-        <router-link to="" class="t1">{{$t("Nav.thanks")}}</router-link>
+        <router-link to="" class="t1">{{$t("Nav.staff")}}</router-link>
       </li>
       <li><a class="dropdown-trigger" data-target="dropdown2">{{$t("Nav.lang")}}<i class="material-icons right">arrow_drop_down</i></a>
       </li>

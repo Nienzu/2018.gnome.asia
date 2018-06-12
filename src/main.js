@@ -39,6 +39,8 @@ var mainVue = new Vue({
 $(document).ready(function () {
   // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
   $('.modal').modal();
+
+  //leaflet for OSM s
   var map = L.map('osm-map').setView([25.0138, 121.5413], 10);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
