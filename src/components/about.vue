@@ -35,10 +35,11 @@
       <div> 
         <p style="font-weight: 700;font-size: x-large">————</p>
         <p style="font-weight: 700;font-size: large;display: inline;margin-right: 20px">{{$t("About.time")}}：<span style="font-weight: normal">{{$t("About.time1")}}</span></p>
+        <br>
         <p style="font-weight: 700;font-size: large;display: inline">{{$t("About.place")}}:<span style="font-weight: normal">{{$t("About.place1")}}</span></p>
       </div>
-      <div style="margin-top: 2%;margin-bottom: 50px" >
-        <iframe v-bind:width="mapWidth" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=121.53814034674727%2C25.01024013321245%2C121.54543595526778%2C25.01676397022128&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/25.01350/121.54179&amp;layers=N">{{$t("About.map")}}</a></small>
+      <div style="height:500px" id="osm-map">
+        
       </div>
     </div>
     <div style="width: 80%; left: 0;right: 0;margin: 50px auto 10px auto;overflow: hidden;">
