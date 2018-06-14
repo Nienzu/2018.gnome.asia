@@ -9,7 +9,15 @@ module.exports={
     lang:'語言',
     community:'社區',
     venue:'旅遊資訊',
-  },  
+    regist:'報名'
+  },
+  Regist:{
+    title:'報名',
+    duration:'時間',
+    duration1:'2018/06/20 20:00(+0800) ~ 2018/08/07 00:00(+0800)',
+    link:'連結',
+    link1:'KKTIX'
+  },
   About:{
     news:"新聞",
 
@@ -26,38 +34,8 @@ module.exports={
 
     map:"查看更大的地圖"
   },
-  AboutUs:{
-    about:'工作人員名單',
-    about1:'總召',
-    about2:'設計組',
-    about3:'導演組',
-    about4:'開發組',
-    about5:'行政組',
-    contactWay:'聯繫方式',
-    footer1:'暢想未來，擁抱開源',
-    contact:'聯繫我們: soscon@openingsource.org',
-    footer:'學生開源年會',
-    email:'官方郵箱',
-    email1:'總召',
-    email2:'行政組',
-    email3:"設計組",
-    email4:'導演組',
-    email5:'開發組',
-    /*contact1:'總召：劉煜民',
-    contact2:'導演組：葉偉豪',
-    contact3:'設計組：蔣昊辰',
-    contact4:'開發組：邵明琦',
-    contact5:'志願者團隊：劉昊天',
-    attend:'關注我們',
-    foot:'暢想未來，擁抱開源。Copyleft@2018學生開源年會 SOSCON.top'*/
-  },
   Community:{
-    community:'聯合創始社區',
-    community1:'合作社區',
-    media:'合作媒體',
-    foot:'暢想未來，擁抱開源',
-    contactus:'聯繫我們: soscon@openingsource.org',
-    foot1:'學生開源年會',
+    
   },
   Apply:{
     cfp:"招募講者",

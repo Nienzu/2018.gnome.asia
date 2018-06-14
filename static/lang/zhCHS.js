@@ -9,39 +9,17 @@ module.exports={
     community:'社区',
     lang:'语言',
     venue:'旅游资讯',
+    regist:'報名'
   },
-  AboutUs:{
-    about:'工作人员名单',
-    about1:'总召',
-    about2:'设计组',
-    about3:'导演组',
-    about4:'开发组',
-    about5:'行政组',
-    contactWay:'联系方式',
-    footer1:'畅想未来，拥抱开源',
-    contact:'联系我们: soscon@openingsource.org',
-    footer:'学生开源年会',
-    email:'官方邮箱',
-    email1:'总召',
-    email2:'行政组',
-    email3:"设计组",
-    email4:'导演组',
-    email5:'开发组',
-   /* contact1:'总召：刘煜民',
-    contact2:'导演组：叶伟豪',
-    contact3:'设计组：蒋昊辰',
-    contact4:'开发组：邵明琦',
-    contact5:'志愿者团队：刘昊天',
-    attend:'关注我们',
-    foot:'畅想未来，拥抱开源。Copyleft@2018学生开源年会 SOSCON.top'*/
+  Regist:{
+    title:'報名',
+    duration:'時間',
+    duration1:'2018/06/20 20:00(+0800) ~ 2018/08/07 00:00(+0800)',
+    link:'報名連結',
+    link1:'KKTIX'
   },
   Community:{
-    community:'联合创始社区',
-    community1:'合作社区',
-    media:'合作媒体',
-    foot:'畅想未来，拥抱开源',
-    contactus:'联系我们: soscon@openingsource.org',
-    foot1:'学生开源年会',
+    
   },
   About:{
     news:"新闻",

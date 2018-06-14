@@ -9,7 +9,15 @@ module.exports={
     aboutUs:'About us',
     lang:'Language',
     venue:'Venue',
+    regist:'Registration'
 
+  },
+  Regist:{
+    title:'Registration',
+    duration:'Regist Duration',
+    duration1:'2018/06/20 20:00(+0800) ~ 2018/08/07 00:00(+0800)',
+    link:'Link',
+    link1:'KKTIX'
   },
   About:{
 
@@ -32,31 +40,6 @@ module.exports={
     bottom2:'Contact Us: soscon@openingsource.org',
 
     map:"Bigger Map"
-  },
-  AboutUs:{
-    about:'List of staff',
-    about1:'SOSCON\'s Event General Coordinator',
-    about2:'Design team',
-    about3:'Director team',
-    about4:'Development team',
-    about5:'Administrative team',
-    contactWay:'Contact way',
-    footer1:'Imagine the future and embrace open source',
-    contact:'Contact Us: soscon@openingsource.org',
-    footer:'Students Open Source Conference',
-    email:'Official email',
-    email1:'SOSCON\'s Event General Coordinator',
-    email2:'Administrative team',
-    email3:"Design team",
-    email4:'Director team',
-    email5:'Development team',
-    /*contact1:'总召：刘煜民',
-    contact2:'导演组：叶伟豪',
-    contact3:'设计组：蒋昊辰',
-    contact4:'开发组：邵明琦',
-    contact5:'志愿者团队：刘昊天',
-    attend:'关注我们',
-    foot:'畅想未来，拥抱开源。Copyleft@2018学生开源年会 SOSCON.top'*/
   },
  Apply:{
   cfp:"Call Fro Proposal",
@@ -112,11 +95,6 @@ module.exports={
   olist11:"Distributed systems",
  },
   Community:{
-    community:'Joint founding community',
-    community1:'Cooperative community',
-    media:'Cooperative Media',
-    foot:'Imagine the future and embrace open source',
-    contactus:'Contact Us: soscon@openingsource.org',
-    foot1:'Students Open Source Conference',
+
   }
 }

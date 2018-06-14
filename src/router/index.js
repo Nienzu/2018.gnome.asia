@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/components/home'
-import about from '@/components/about'
-import aboutUs from '@/components/aboutUs'
 import apply from '@/components/apply'
 import venue from '@/components/venue'
+import registration from '@/components/registration'
 
 Vue.use(Router)
 
@@ -26,14 +25,6 @@ export default new Router({
       }
     },
     {
-      path: '/aboutUs',
-      name: '/aboutUs',
-      component: aboutUs,
-      meta: {
-        Num: 1
-      }
-    },
-    {
       path: '/apply',
       name: '/apply',
       component: apply,
@@ -45,6 +36,14 @@ export default new Router({
       path: '/venue',
       name: 'venue',
       component: venue,
+      meta: {
+        Num: 1
+      }
+    },
+    {
+      path: '/registration',
+      name: 'registration',
+      component: registration,
       meta: {
         Num: 1
       }
