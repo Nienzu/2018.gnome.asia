@@ -8,11 +8,17 @@
         </div>
         <p style="font-weight: 700;font-size: x-large">————</p>
         <p style="font-weight: 600;font-size: medium;color:gray">June 15, 2018</p>
-        <a style="font-weight: 600;font-size: large;" href="https://2018.gnome.asia/registration">Registration open date is 6/20</a>
+        <a style="font-weight: 600;font-size: large;" href="/registration">Registration open date is 6/20</a>
         <p>All participants can regist GNOME.Asia Summit 2018 through KKTIX during 2018/06/20 20:00(+0800) ~ 2018/08/07 00:00(+0800). <br><a href="/registration">More...</a></p>
+
+        <p style="font-weight: 600;font-size: medium;color:gray">June 8, 2018</p>
+        <a style="font-weight: 600;font-size: large;" href="/venue">Venue information is online now!</a>
+        <p>Venue information could be found <a href="/venue">here</a>.  If you found there is any wrong information or want to provide some information, please open issue or send pull request on <a href="https://github.com/GNOME-Asia/2018.gnome.asia">this repo</a>.</p>
+
         <p style="font-weight: 600;font-size: medium;color:gray">May 18, 2018</p>
         <a style="font-weight: 600;font-size: large;" href="https://www.gnome.org/news/2018/04/gnome-asia-summit-2018-call-for-papers-is-now-open/">GNOME.Asia Summit 2018 Call for Papers deadline is 5/25</a>
         <p>Call for paper will be closed in 7 days.A standard session will be scheduled for 45 mins (35 mins talk + 10 mins Q&A). The session could be a technical talk, panel discussion, or BOF. If you need more time or additional resources, feel free to get in touch with the organizing team.</p>
+
         <p style="font-weight: 600;font-size: medium;color:gray">April 27, 2018</p>
         <a style="font-weight: 600;font-size: large;" href="https://www.gnome.org/news/2018/04/gnome-asia-summit-2018-call-for-papers-is-now-open/">GNOME.Asia Summit 2018 Call for Papers is now open</a>
         <p>GNOME.Asia Summit 2018 invites proposals for presentations at the conference. GNOME.Asia Summit is the featured annual GNOME conference in Asia. It focuses primarily on the GNOME desktop, but also covers applications and the platform development tools. The summit brings together the GNOME community in Asia to provide a forum for users, developers, foundation leaders, governments 
