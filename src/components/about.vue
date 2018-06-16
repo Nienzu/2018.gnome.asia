@@ -3,7 +3,6 @@
     <div style="width: 80%;margin: 0 auto;">
       <div>
         <div style="display: inline-block;text-align: center;margin-top: 135px">
-          <!--<p style="background-color: black;color: white;width: 260px;height: 65px;font-size: x-large" >GNOME.Asia<span style="color:#66ccff;">18</span></p>-->
         <h4 style="background-color: black;color: white;padding: 20px 20px;">{{$t("About.news")}}</h4>
         </div>
         <p style="font-weight: 700;font-size: x-large">————</p>

@@ -234,23 +234,16 @@
 .venue{
   display:flex;
   flex-direction: row;
-  flex-wrap:nowrap;
   justify-content: center;
-  align-items: stretch;
-  box-shadow:black 0px 0px 5px 1px;
+  
   padding: 1%;
   text-align: left;
 
-  min-height:300px;
-  overflow: auto;
-  
-  color: black;
   background-color: white;
-  align-self: center;
+  
   margin-top: 15%;
   margin-bottom: 3%;
   filter: opacity(.95);
-
 }
 .applyContainer{
   position: relative;

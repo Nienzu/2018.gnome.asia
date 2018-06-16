@@ -29,8 +29,8 @@ var mainVue = new Vue({
     App
   },
   template: '<App/>',
-  methods:{
-    test(){
+  methods: {
+    test() {
       console.log("hi")
     }
   }
@@ -44,10 +44,10 @@ $(document).ready(function () {
   var map = L.map('osm-map').setView([25.0138, 121.5413], 10);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
-  
+
   L.marker([25.0138, 121.5413]).addTo(map)
-      .bindPopup(mainVue.$t("About.place1"))
-      .openPopup();
+    .bindPopup(mainVue.$t("About.place1"))
+    .openPopup();
 });

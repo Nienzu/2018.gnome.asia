@@ -63,22 +63,14 @@ export default {
       'language-switcher': LanguageSwitcher
     },
     name: "NavBar",
-    props: ['name'],
     methods: {
-      open1() {
-        $('#modalLogin').modal('open');
-      },
-      open() {
-        $('.modal').modal();
-        $('#modalRegister').modal('open');
-      },
       closeNav() {
         $('.sidenav').sidenav('close');
       }
     },
     mounted() {
       $(".dropdown-trigger").dropdown();
-      $('.modal').modal();
+
     }
   }
 </script>
