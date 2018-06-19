@@ -14,7 +14,7 @@
 
 .pic1{
     display: flex;
-    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-image: url("../img/bg-taipei-101-1.png");
     background-position: center;
     backface-visibility: hidden;
     background-size:cover;
@@ -29,7 +29,7 @@
 
 .pic2{
   display: flex;
-  background-image: url("../img/bg-taipei-101-2.jpg");
+  background-image: url("../img/bg-taipei-101-2.png");
   background-position: center;
   backface-visibility: hidden;
   background-size:cover;
@@ -43,7 +43,7 @@
 }
 .pic3{
   display: flex;
-  background-image: url("../img/bg-taipei-101-3.jpg");
+  background-image: url("../img/bg-taipei-101-3.png");
   background-position: center;
   backface-visibility: hidden;
   background-size:cover;
@@ -115,7 +115,7 @@
 .main{
     display: flex;
     justify-content: center;
-    background-image: url("../img/bg-taipei-101-3.jpg");
+    background-image: url("../img/bg-taipei-101-3.png");
     background-size: cover;
     position: relative;
     transition: 0.3s ease-in-out;
@@ -128,7 +128,7 @@
   height: 381px;
   width: 483px;
   margin: 10% auto;
-  background-image: url("../img/newHomeTitle.png");
+/* background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -139,7 +139,7 @@
   height: 381px;
   width: 483px;
   margin: 10% auto;
-  background-image: url("../img/newHomeTitle.png");
+/*  background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -150,7 +150,7 @@
   height: 381px;
   width: 483px;
   margin: 10% auto;
-  background-image: url("../img/newHomeTitle.png");
+/*  background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -374,7 +374,7 @@
   }
   .pic1{
     display: flex;
-    background-image: url("../img/bg-taipei-101-1.jpg");
+    background-image: url("../img/bg-taipei-101-1-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -388,7 +388,7 @@
   
   .pic2{
     display: flex;
-    background-image: url("../img/bg-taipei-101-2-mobile.jpg");
+    background-image: url("../img/bg-taipei-101-2-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -401,7 +401,7 @@
   }
   .pic3{
     display: flex;
-    background-image: url("../img/bg-taipei-101-3-mobile.jpg");
+    background-image: url("../img/bg-taipei-101-3-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
     background-size:cover;
@@ -417,7 +417,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
-    background-image: url("../img/bg-taipei-101-3.jpg");
+    background-image: url("../img/bg-taipei-101-3.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -426,20 +426,20 @@
     height: 270px;
     width: 285px;
     margin-top: 25%;
-    background-image: url("/static/img/newHomeTitle.png");
+/*  background-image: url("/static/img/newHomeTitle.png"); */
   }
   .enHomeTitle{
     height: 270px;
     width: 285px;
     margin-top: 25%;
-    background-image: url("../../static/img/newHomeTitle.png");
+/*    background-image: url("../../static/img/newHomeTitle.png"); */
   }
 
   .twHomeTitle{
     height: 270px;
     width: 285px;
     margin-top: 25%;
-    background-image: url("../../static/img/newHomeTitle.png");
+/*  background-image: url("../../static/img/newHomeTitle.png"); */
   }
   .homeButton1{
     height: 30px;
