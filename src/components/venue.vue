@@ -352,7 +352,7 @@ export default {
                 color: diffLine
             }).addTo(howto);
             // zoom the map to the polyline
-            howto.fitBounds(polyline.getBounds());
+            //howto.fitBounds(polyline.getBounds());
         }
     }
 };
