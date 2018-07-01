@@ -154,6 +154,10 @@
                         </ul>
                     </div>
                     <div class="divider"></div>
+                    <h3 class="center-align">How-To NTUST</h3>
+                    <div id="howto" style="height:500px"></div>
+
+                    <div class="divider"></div>
                     <h3 class="center-align">MRT Station Name</h3>
                     <h4 id="Red-Line">Red Line</h4>
                     <ul>
@@ -312,8 +316,45 @@
 </template>
 
 <script>
+import MRT_Taoyun2NTUST from "../../static/geojson/MRT_Taoyun2NTUST";
+
 export default {
-    name: "venue"
+    name: "venue",
+    mounted() {
+        var howto = L.map("howto").setView([25.0138, 121.5413], 10);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution:
+                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(howto);
+
+        for (var diffLine in MRT_Taoyun2NTUST) {
+            var pointArray = [];
+
+            for (var item in MRT_Taoyun2NTUST[diffLine]) {
+                pointArray.push(MRT_Taoyun2NTUST[diffLine][item]);
+                var marker = L.marker(MRT_Taoyun2NTUST[diffLine][item]).addTo(
+                    howto
+                );
+
+                if (item.includes("Start") || item.includes("End")) {
+                    marker
+                        .bindPopup(item, {
+                            closeOnClick: false,
+                            autoClose: false
+                        })
+                        .openPopup();
+                } else {
+                    marker.bindPopup(item);
+                }
+            }
+            var polyline = L.polyline(pointArray, {
+                color: diffLine
+            }).addTo(howto);
+            // zoom the map to the polyline
+            howto.fitBounds(polyline.getBounds());
+        }
+    }
 };
 </script>
 
