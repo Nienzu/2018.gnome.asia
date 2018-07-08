@@ -4,6 +4,7 @@ import home from '@/components/home'
 import apply from '@/components/apply'
 import venue from '@/components/venue'
 import registration from '@/components/registration'
+import sponsor from '@/components/sponsor'
 
 Vue.use(Router)
 
@@ -47,7 +48,15 @@ export default new Router({
       meta: {
         Num: 1
       }
+    },
+    {
+      path: '/sponsor',
+      name: 'sponsor',
+      component: sponsor,
+      meta: {
+        Num: 1
+      }
     }
-    
+
   ]
 })

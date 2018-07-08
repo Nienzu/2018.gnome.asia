@@ -62,9 +62,9 @@
                                 Room type &amp; Price
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Private Rooms : 1600/per night,per room</li>
+                                        <i class="medium material-icons ">chevron_right</i> Private Rooms : 1600/per night,per room</li>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Beds in Dorm Rooms : 600/per night, per bed</li>
+                                        <i class="medium material-icons ">chevron_right</i> Beds in Dorm Rooms : 600/per night, per bed</li>
                                 </ul>
                             </li>
                             <li>
@@ -84,9 +84,9 @@
                                 Room type &amp; Price
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Private Rooms: 2000/per night, per room</li>
+                                        <i class="medium material-icons ">chevron_right</i> Private Rooms: 2000/per night, per room</li>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Beds in Dorm Rooms : 600/per night, per bed</li>
+                                        <i class="medium material-icons ">chevron_right</i> Beds in Dorm Rooms : 600/per night, per bed</li>
                                 </ul>
                             </li>
                             <li>
@@ -99,7 +99,7 @@
                                 Location
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>MRT : Twenty minutes from ximen Station to Gongguan Station</li>
+                                        <i class="medium material-icons ">chevron_right</i> MRT : Twenty minutes from ximen Station to Gongguan Station</li>
                                 </ul>
                             </li>
                         </ul>
@@ -112,7 +112,7 @@
                                 Room type &amp; Price
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Single Room with Shared Bathroom : 1200 NTD</li>
+                                        <i class="medium material-icons ">chevron_right</i> Single Room with Shared Bathroom : 1200 NTD</li>
                                 </ul>
                             </li>
                             <li>
@@ -124,7 +124,7 @@
                                 Location
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>MRT : Twenty minutes from ximen Station to Gongguan Station</li>
+                                        <i class="medium material-icons ">chevron_right</i> MRT : Twenty minutes from ximen Station to Gongguan Station</li>
                                 </ul>
                             </li>
                         </ul>
@@ -136,7 +136,7 @@
                                 Room type &amp; Price
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>Standard Single Room with Shared Bathroom : 1200 NTD</li>
+                                        <i class="medium material-icons ">chevron_right</i> Standard Single Room with Shared Bathroom : 1200 NTD</li>
                                 </ul>
                             </li>
                             <li>
@@ -148,7 +148,7 @@
                                 Location
                                 <ul>
                                     <li>
-                                        <i class="medium material-icons ">chevron_right</i>MRT : Thirty minutes from Taipei Main Station to Gongguan Station</li>
+                                        <i class="medium material-icons ">chevron_right</i> MRT : Thirty minutes from Taipei Main Station to Gongguan Station</li>
                                 </ul>
                             </li>
                         </ul>
