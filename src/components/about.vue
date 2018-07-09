@@ -46,7 +46,6 @@
         </div>
       </div>
       <div>
-        <p style="font-weight: 700;font-size: x-large">————</p>
         <p style="font-weight: 700;font-size: large;display: inline;margin-right: 20px">{{$t("About.time")}}：
           <span style="font-weight: normal">{{$t("About.time1")}}</span>
         </p>
@@ -55,7 +54,25 @@
           <span style="font-weight: normal">{{$t("About.place1")}}</span>
         </p>
       </div>
-      <div style="height:500px" id="osm-map">
+      <div style="height:500px; z-index:-1;" id="osm-map">
+
+      </div>
+      <div style="margin-top:40px; ">
+        <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
+        <div style="display: inline-block;text-align: center;">
+          <h4 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h4>
+        </div>
+        <a href="https://www.privateinternetaccess.com/">
+          <img class="responsive-img" src="../../static/img/PIA-sponsor-logo.jpg">
+        </a>
+        <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
+        <div style="display: inline-block;text-align: center;">
+          <h4 style="background-color: black;color: white;padding: 20px 20px;">Bronze Sponsor</h4>
+        </div>
+        <a href="https://www.seafile.com/home/">
+          <img class="responsive-img" src="../../static/img/seafile-logo.png">
+        </a>
+        <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
 
       </div>
     </div>
@@ -70,6 +87,7 @@
       <i class="iconfont icon" style="margin-left: 10px">&#xe660;</i>
       <i class="iconfont icon">&#xe8db;</i>
     </div>
+
   </div>
 </template>
 
