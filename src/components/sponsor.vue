@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div style="padding-top:100px;">
+        <div style="padding-top:50px;">
             <div class="container">
                 <div class="icon-block second applyContainer">
                     <h2 class="center blue-text">
@@ -10,15 +10,19 @@
                     <!--<p class="light">-->
                     <div style="margin-top:40px; ">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
+                        <div style="display: inline-block;text-align: center;">
+                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h4>
+                        </div>
                         <a href="https://www.privateinternetaccess.com/">
-                            <h3>Private Internet Access</h3>
+                            <img class="responsive-img" src="../../static/img/PIA-sponsor-logo.jpg">
                         </a>
-                        <img class="responsive-img" src="../../static/img/PIA-sponsor-logo.jpg">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
+                        <div style="display: inline-block;text-align: center;">
+                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Bronze Sponsor</h4>
+                        </div>
                         <a href="https://www.seafile.com/home/">
-                            <h3>Seafile</h3>
+                            <img class="responsive-img" src="../../static/img/seafile-logo.png">
                         </a>
-                        <img class="responsive-img" src="../../static/img/seafile-logo.png">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
 
                     </div>
