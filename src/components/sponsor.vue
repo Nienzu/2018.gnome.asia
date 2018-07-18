@@ -11,7 +11,7 @@
                     <div style="margin-top:40px; ">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
                         <div style="display: inline-block;text-align: center;">
-                            <h5 style="background-color: black;color: white;padding: 20px 20px;">Co-Host</h5>
+                            <h5 style="background-color: black;color: white;padding: 20px 20px;">Co-Host Sponsor</h5>
                         </div>
                         <br>
                         <a href="https://cobinhood.com/">
