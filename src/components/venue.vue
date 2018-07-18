@@ -155,7 +155,7 @@
                     </div>
                     <div class="divider"></div>
                     <h3 class="center-align">How-To NTUST</h3>
-                    <div id="howto" style="height:500px; z-index:-1;"></div>
+                    <div id="howto" style="height:500px; z-index:0;"></div>
 
                     <div class="divider"></div>
                     <h3 class="center-align">MRT Station Name</h3>

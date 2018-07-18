@@ -54,7 +54,7 @@
           <span style="font-weight: normal">{{$t("About.place1")}}</span>
         </p>
       </div>
-      <div style="height:500px; z-index:-1;" id="osm-map">
+      <div style="height:500px; z-index:0;" id="osm-map">
 
       </div>
       <div style="margin-top:40px; ">
