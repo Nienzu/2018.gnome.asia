@@ -20,8 +20,8 @@
           <li>
             <router-link to="/registration">{{$t("Nav.regist")}}</router-link>
           </li>
-          <li class="t1">
-            <router-link to="">{{$t("Nav.agenda")}}</router-link>
+          <li>
+            <router-link to="/schedule">{{$t("Nav.agenda")}}</router-link>
           </li>
           <li class="t1">
             <router-link to="">{{$t("Nav.staff")}}</router-link>
@@ -50,7 +50,7 @@
         <router-link to="/registration">{{$t("Nav.regist")}}</router-link>
       </li>
       <li>
-        <router-link to="" class="t1">{{$t("Nav.agenda")}}</router-link>
+        <router-link to="/schedule">{{$t("Nav.agenda")}}</router-link>
       </li>
       <li>
         <router-link to="" class="t1">{{$t("Nav.staff")}}</router-link>
