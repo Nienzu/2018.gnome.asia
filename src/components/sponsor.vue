@@ -11,6 +11,13 @@
                     <div style="margin-top:40px; ">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
                         <div style="display: inline-block;text-align: center;">
+                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Co-Host</h4>
+                        </div>
+                        <a href="https://cobinhood.com/">
+                            <img class="responsive-img" src="../../static/img/co-host-cobinhood.png">
+                        </a>
+                        <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
+                        <div style="display: inline-block;text-align: center;">
                             <h4 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h4>
                         </div>
                         <a href="https://www.privateinternetaccess.com/">
