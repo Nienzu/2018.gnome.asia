@@ -13,6 +13,7 @@
                         <div style="display: inline-block;text-align: center;">
                             <h4 style="background-color: black;color: white;padding: 20px 20px;">Co-Host</h4>
                         </div>
+                        <br>
                         <a href="https://cobinhood.com/">
                             <img class="responsive-img" src="../../static/img/co-host-cobinhood.png">
                         </a>
@@ -20,6 +21,7 @@
                         <div style="display: inline-block;text-align: center;">
                             <h4 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h4>
                         </div>
+                        <br>
                         <a href="https://www.privateinternetaccess.com/">
                             <img class="responsive-img" src="../../static/img/PIA-sponsor-logo.jpg">
                         </a>
@@ -27,6 +29,7 @@
                         <div style="display: inline-block;text-align: center;">
                             <h4 style="background-color: black;color: white;padding: 20px 20px;">Bronze Sponsor</h4>
                         </div>
+                        <br>
                         <a href="https://www.seafile.com/home/">
                             <img class="responsive-img" src="../../static/img/seafile-logo.png">
                         </a>
@@ -65,6 +68,10 @@ export default {
 }
 .alert-info .alert-link {
     color: #062c33;
+}
+img {
+    width: 60%;
+    height: auto;
 }
 </style>
 
