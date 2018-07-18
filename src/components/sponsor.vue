@@ -11,7 +11,7 @@
                     <div style="margin-top:40px; ">
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
                         <div style="display: inline-block;text-align: center;">
-                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Co-Host</h4>
+                            <h5 style="background-color: black;color: white;padding: 20px 20px;">Co-Host</h5>
                         </div>
                         <br>
                         <a href="https://cobinhood.com/">
@@ -19,7 +19,7 @@
                         </a>
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
                         <div style="display: inline-block;text-align: center;">
-                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h4>
+                            <h5 style="background-color: black;color: white;padding: 20px 20px;">Platinum Sponsor</h5>
                         </div>
                         <br>
                         <a href="https://www.privateinternetaccess.com/">
@@ -27,7 +27,7 @@
                         </a>
                         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
                         <div style="display: inline-block;text-align: center;">
-                            <h4 style="background-color: black;color: white;padding: 20px 20px;">Bronze Sponsor</h4>
+                            <h5 style="background-color: black;color: white;padding: 20px 20px;">Bronze Sponsor</h5>
                         </div>
                         <br>
                         <a href="https://www.seafile.com/home/">
@@ -70,7 +70,7 @@ export default {
     color: #062c33;
 }
 img {
-    width: 60%;
+    width: 30%;
     height: auto;
 }
 </style>
