@@ -99,6 +99,8 @@ module.exports = {
   },
   Sponsor: {
     title: "赞助商",
-
+  },
+  Staff: {
+    title: "工作人員",
   }
 }

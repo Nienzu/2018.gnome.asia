@@ -94,5 +94,8 @@ module.exports = {
   Sponsor: {
     title: "贊助商",
 
+  },
+  Staff: {
+    title: "工作人員",
   }
 }

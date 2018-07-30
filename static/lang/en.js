@@ -100,6 +100,8 @@ module.exports = {
   },
   Sponsor: {
     title: "Sponsor",
-
+  },
+  Staff: {
+    title: "Staff",
   }
 }

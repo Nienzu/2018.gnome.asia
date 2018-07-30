@@ -5,6 +5,7 @@ import apply from '@/components/apply'
 import venue from '@/components/venue'
 import registration from '@/components/registration'
 import sponsor from '@/components/sponsor'
+import staff from '@/components/staff'
 import schedule from '@/components/schedule'
 
 Vue.use(Router)
@@ -62,6 +63,14 @@ export default new Router({
       path: '/schedule',
       name: 'schedule',
       component: schedule,
+      meta: {
+        Num: 1
+      }
+    },
+    {
+      path: '/staff',
+      name: 'staff',
+      component: staff,
       meta: {
         Num: 1
       }

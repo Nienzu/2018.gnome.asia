@@ -1,172 +1,167 @@
-.my_button{
+.my_button {
   position: absolute;
   bottom: 10px;
 }
+
 .pic {
-    margin-left: 100px;
-    margin-bottom: 40px;
+  margin-left: 100px;
+  margin-bottom: 40px;
 }
 
 .pos {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
-
-.pic1{
-    display: flex;
-    background-image: url("../img/bg-taipei-101-1.png");
-    background-position: center;
-    backface-visibility: hidden;
-    background-size:cover;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    flex:1 1 auto;
-    margin: 0 auto;
-    transition: 0.3s ease-in-out;
-
+.pic1 {
+  display: flex;
+  background-image: url("../img/bg-taipei-101-1.png");
+  background-position: center;
+  backface-visibility: hidden;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  flex: 1 1 auto;
+  margin: 0 auto;
+  transition: 0.3s ease-in-out;
 }
 
-.pic2{
+.pic2 {
   display: flex;
   background-image: url("../img/bg-taipei-101-2.png");
   background-position: center;
   backface-visibility: hidden;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  flex:1 1 auto;
+  flex: 1 1 auto;
   margin: 0 auto;
   transition: 0.3s ease-in-out;
-
 }
-.pic3{
+
+.pic3 {
   display: flex;
   background-image: url("../img/bg-taipei-101-3.png");
   background-position: center;
   backface-visibility: hidden;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  flex:1 1 auto;
+  flex: 1 1 auto;
   margin: 0 auto;
   transition: 0.3s ease-in-out;
-
 }
+
 /*img{
     display: flex;
     flex-shrink: 1;
 }*/
 
-.t1{
-    filter: opacity(.1);
-}
-.title1{
-    /*background-image: url("../img/back.png");*/
-    background:rgba(0,0,0,.5);
-    position: fixed;
-    z-index: 1;
-}
-.tit1{
-    background-color: #282828;
-    color: white!important;
+.t1 {
+  filter: opacity(.1);
 }
 
-
-
-.about{
-    display: inline-block;
-    /*border: 1px solid black;*/
-    opacity: 0.8;
-    padding-left: 2%;
-    padding-right: 2%;
-    box-shadow:black 0px 0px 5px 1px;
-    text-align: left;
-    width: 60%;
-    height: auto;
-    color: black;
-    background-color: white;
-    align-self: center;
-    margin-top: 5%;
-
-    /*filter: opacity(.95);*/
-    overflow:hidden;
-    transition: 0.3s ease-in-out;
-
-
+.title1 {
+  /*background-image: url("../img/back.png");*/
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  z-index: 1;
 }
 
-
-.about1{
-    display: flex;
-    justify-content: center;
-    background-image: url("../img/pic6.jpg");
-    background-size: cover;
-    background-position: center;
-
-    height: auto;
-    left: 0;
-    top: 0;
-    transition: 0.3s ease-in-out;
-
-}
-.main{
-    display: flex;
-    justify-content: center;
-    background-image: url("../img/bg-taipei-101-3.png");
-    background-size: cover;
-    position: relative;
-    transition: 0.3s ease-in-out;
-}
-.about h4 p{
-    flex: 0 1 auto;
+.tit1 {
+  background-color: #282828;
+  color: white !important;
 }
 
-.homeTitle{
+.about {
+  display: inline-block;
+  /*border: 1px solid black;*/
+  opacity: 0.8;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-shadow: black 0px 0px 5px 1px;
+  text-align: left;
+  width: 60%;
+  height: auto;
+  color: black;
+  background-color: white;
+  align-self: center;
+  margin-top: 5%;
+  /*filter: opacity(.95);*/
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.about1 {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/pic6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  left: 0;
+  top: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/bg-taipei-101-3.png");
+  background-size: cover;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.about h4 p {
+  flex: 0 1 auto;
+}
+
+.homeTitle {
   height: 381px;
   width: 483px;
   margin: 10% auto;
-/* background-image: url("../img/newHomeTitle.png"); */
+  /* background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 
-.enHomeTitle{
+.enHomeTitle {
   height: 381px;
   width: 483px;
   margin: 10% auto;
-/*  background-image: url("../img/newHomeTitle.png"); */
+  /*  background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 
-.twHomeTitle{
+.twHomeTitle {
   height: 381px;
   width: 483px;
   margin: 10% auto;
-/*  background-image: url("../img/newHomeTitle.png"); */
+  /*  background-image: url("../img/newHomeTitle.png"); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 
-.homeButton1{
+.homeButton1 {
   height: 46px;
   width: 200px;
-  top:400px;
+  top: 400px;
   left: 10px;
-  background-image:url("../img/Button-About-cn.png");
+  background-image: url("../img/Button-About-cn.png");
   position: absolute;
 }
 
-.homeButton2{
+.homeButton2 {
   height: 50px;
   width: 200px;
   top: 400px;
@@ -175,16 +170,16 @@
   position: absolute;
 }
 
-.enHomeButton1{
+.enHomeButton1 {
   height: 50px;
   width: 200px;
-  top:400px;
+  top: 400px;
   left: 10px;
-  background-image:url("../img/Button-About-en.png");
+  background-image: url("../img/Button-About-en.png");
   position: absolute;
 }
 
-.enHomeButton2{
+.enHomeButton2 {
   height: 50px;
   width: 200px;
   top: 400px;
@@ -193,16 +188,16 @@
   position: absolute;
 }
 
-.twHomeButton1{
+.twHomeButton1 {
   height: 50px;
   width: 200px;
-  top:400px;
+  top: 400px;
   left: 10px;
-  background-image:url("../img/Button-About-tc.png");
+  background-image: url("../img/Button-About-tc.png");
   position: absolute;
 }
 
-.twHomeButton2{
+.twHomeButton2 {
   height: 50px;
   width: 200px;
   top: 400px;
@@ -211,19 +206,17 @@
   position: absolute;
 }
 
-.baoming{
-  display:flex;
+.baoming {
+  display: flex;
   flex-direction: row;
-  flex-wrap:nowrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
-  box-shadow:black 0px 0px 5px 1px;
+  box-shadow: black 0px 0px 5px 1px;
   padding: 1%;
   text-align: left;
-
-  min-height:300px;
+  min-height: 300px;
   overflow: auto;
-  
   color: black;
   background-color: white;
   align-self: center;
@@ -231,29 +224,43 @@
   margin-bottom: 3%;
   filter: opacity(.95);
 }
-.venue{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  
+
+.staff-card {
+  align-items: stretch;
+  box-shadow: black 0px 0px 5px 1px;
   padding: 1%;
   text-align: left;
-
+  color: black;
   background-color: white;
-  
+  align-self: center;
   margin-top: 15%;
   margin-bottom: 3%;
   filter: opacity(.95);
 }
-.applyContainer{
+
+.venue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+  text-align: left;
+  background-color: white;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  filter: opacity(.95);
+}
+
+.applyContainer {
   position: relative;
   height: 500px;
 }
-.button{
+
+.button {
   position: absolute;
-  bottom:-30px;
+  bottom: -30px;
 }
-.aboutus{
+
+.aboutus {
   /*display: flex;
   flex-direction: column;*/
   flex-basis: auto;
@@ -265,7 +272,8 @@
   margin-right: 5%;
   margin-top: 20px;
 }
-.timeandmap{
+
+.timeandmap {
   display: inline-block;
   vertical-align: top;
   margin-top: 20px;
@@ -275,16 +283,17 @@
   /*margin-right: 10%;*/
   margin-left: 5%;
   margin-right: 5%;
-  width:300px;
+  width: 300px;
 }
-.aboutandmap{
+
+.aboutandmap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.baidumap{
+.baidumap {
   width: 100%;
   height: 500px;
 }
@@ -292,52 +301,51 @@
 @font-face {
   font-family: 'iconfont';
   src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot');
-  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.woff') format('woff'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.woff') format('woff'), url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.ttf') format('truetype'), url('//at.alicdn.com/t/font_603550_ynate9ebciwcow29.svg#iconfont') format('svg');
 }
-.iconfont{
-  font-family:"iconfont" !important;
-  font-size:24px;font-style:normal;
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;}
-.icon{
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
   float: right;
 }
-.foot{
+
+.foot {
   float: right;
   font-size: small;
   color: gray;
 }
 
-@media only screen and (max-width: 1050px){
-  .applyContainer{
+@media only screen and (max-width: 1050px) {
+  .applyContainer {
     height: 550px;
   }
-
 }
 
-@media only screen and (max-width: 700px){
-  .applyContainer{
+@media only screen and (max-width: 700px) {
+  .applyContainer {
     height: 650px;
   }
-
 }
 
-@media only screen and (max-width: 600px){
-  .applyContainer{
+@media only screen and (max-width: 600px) {
+  .applyContainer {
     height: 420px;
   }
-
 }
 
-@media only screen and (max-width: 500px){
-  .map{
+@media only screen and (max-width: 500px) {
+  .map {
     margin-left: 0;
   }
-  .about1{
+  .about1 {
     display: flex;
     justify-content: center;
     background-image: url("../img/pic6.jpg");
@@ -350,69 +358,65 @@
     position: fixed;
     z-index: -1;
   }
-
-  .about{
+  .about {
     display: inline-block;
     /*border: 1px solid black;*/
     /*opacity: 0.8;*/
     padding-left: 2%;
     padding-right: 2%;
-    box-shadow:black 0px 0px 5px 1px;
+    box-shadow: black 0px 0px 5px 1px;
     text-align: left;
     font-size: 1rem;
-    margin:0 1% 0 1%;
+    margin: 0 1% 0 1%;
     width: 100%;
     height: auto;
     color: black;
     background-color: white;
     align-self: center;
     margin-top: 5%;
-
     /*filter: opacity(.95);*/
-    overflow:hidden;
-
+    overflow: hidden;
   }
-  .pic1{
+  .pic1 {
     display: flex;
     background-image: url("../img/bg-taipei-101-1-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     backface-visibility: hidden;
     height: 100%;
-    flex:1 1 auto;
+    flex: 1 1 auto;
     margin: 0 auto;
     transition: 0.3s ease-in-out;
   }
-  
-  .pic2{
+  .pic2 {
     display: flex;
     background-image: url("../img/bg-taipei-101-2-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     backface-visibility: hidden;
     height: 100%;
-    flex:1 1 auto;
+    flex: 1 1 auto;
     margin: 0 auto;
     transition: 0.3s ease-in-out;
   }
-  .pic3{
+  .pic3 {
     display: flex;
     background-image: url("../img/bg-taipei-101-3-mobile.png");
     background-repeat: no-repeat;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     backface-visibility: hidden;
     height: 100%;
-    flex:1 1 auto;
+    flex: 1 1 auto;
     margin: 0 auto;
     transition: 0.3s ease-in-out;
   }
-  .main{
+  .main {
     display: flex;
     width: 100%;
     height: 100%;
@@ -422,36 +426,33 @@
     background-position: center;
     position: relative;
   }
-  .homeTitle{
+  .homeTitle {
     height: 270px;
     width: 285px;
     margin-top: 25%;
-/*  background-image: url("/static/img/newHomeTitle.png"); */
+    /*  background-image: url("/static/img/newHomeTitle.png"); */
   }
-  .enHomeTitle{
+  .enHomeTitle {
     height: 270px;
     width: 285px;
     margin-top: 25%;
-/*    background-image: url("../../static/img/newHomeTitle.png"); */
+    /*    background-image: url("../../static/img/newHomeTitle.png"); */
   }
-
-  .twHomeTitle{
+  .twHomeTitle {
     height: 270px;
     width: 285px;
     margin-top: 25%;
-/*  background-image: url("../../static/img/newHomeTitle.png"); */
+    /*  background-image: url("../../static/img/newHomeTitle.png"); */
   }
-  .homeButton1{
+  .homeButton1 {
     height: 30px;
     width: 110px;
-    top:300px;
+    top: 300px;
     left: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-
   }
-
-  .homeButton2{
+  .homeButton2 {
     height: 30px;
     width: 110px;
     top: 300px;
@@ -459,17 +460,15 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  .enHomeButton1{
+  .enHomeButton1 {
     height: 30px;
     width: 110px;
-    top:300px;
+    top: 300px;
     left: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-
   }
-
-  .enHomeButton2{
+  .enHomeButton2 {
     height: 30px;
     width: 110px;
     top: 300px;
@@ -477,18 +476,15 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
-  .twHomeButton1{
+  .twHomeButton1 {
     height: 30px;
     width: 110px;
-    top:300px;
+    top: 300px;
     left: 10px;
     background-size: contain;
     background-repeat: no-repeat;
-
   }
-
-  .twHomeButton2{
+  .twHomeButton2 {
     height: 30px;
     width: 110px;
     top: 300px;
