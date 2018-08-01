@@ -32,6 +32,21 @@
                                 <i class="medium material-icons ">chevron_right</i>English Name : National Taiwan University of Science and Technology (NTUST)</li>
                         </ul>
                     </div>
+                    <h4>Halal Restaurant</h4>
+                    <ul>
+                        <li>
+                            <i class="medium material-icons ">chevron_right</i>
+                            <a href="https://thpc.taiwantrade.com/restaurant_map#a1">Taipei Halal Restaurant Map</a>
+                        </li>
+                        <li>
+                            <i class="medium material-icons ">chevron_right</i>
+                            <span> 穆斯林餐廳 is Halal Restaurant</span>
+                        </li>
+                        <li>
+                            <i class="medium material-icons ">chevron_right</i>
+                            <span> 穆斯林友善餐廳 is Halal Friendly Restaurant</span>
+                        </li>
+                    </ul>
 
                     <h3>Accomadation</h3>
                     <div class="alert alert-info">
