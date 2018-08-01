@@ -5,7 +5,11 @@
             <table class="bordered striped">
 
                 <tbody>
-                    <tr v-for="item in day1">
+                    <tr v-for="item in day1" v-if="item[0]==='10:45~11:00' || item[0]==='12:30~13:30' || item[0]==='15:00~15:15'">
+                        <td class="center-align"> {{item[0]}}</td>
+                        <td colspan="2" class="center-align"> {{item[1]}}</td>
+                    </tr>
+                    <tr v-else>
                         <td class="center-align"> {{item[0]}}</td>
                         <td class="center-align"> {{item[1]}}</td>
                         <td class="center-align"> {{item[2]}}</td>
@@ -20,7 +24,11 @@
 
             <table class="bordered striped ">
                 <tbody>
-                    <tr v-for="item in day2">
+                    <tr v-for="item in day2" v-if="item[0]==='10:15~10:30' || item[0]==='12:00~13:00' || item[0]==='14:30~14:45' || item[0]==='8:50~9:20'">
+                        <td class="center-align"> {{item[0]}}</td>
+                        <td colspan="2" class="center-align"> {{item[1]}}</td>
+                    </tr>
+                    <tr v-else>
                         <td class="center-align"> {{item[0]}}</td>
                         <td class="center-align"> {{item[1]}}</td>
                         <td class="center-align"> {{item[2]}}</td>
