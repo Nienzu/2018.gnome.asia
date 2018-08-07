@@ -82,6 +82,10 @@
         <a href="https://www.seafile.com/home/">
           <img class="responsive-img" src="../../static/img/seafile-logo.png">
         </a>
+        <br>
+        <a href="https://www.microsoft.com/zh-tw/">
+          <img class="responsive-img" src="../../static/img/Microsoft-sponsor.png">
+        </a>
         <p style="font-weight: 700;font-size: x-large">————————————————————————————</p>
 
       </div>
