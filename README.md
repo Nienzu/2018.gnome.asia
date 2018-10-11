@@ -17,10 +17,10 @@
 
 -   [20180812 自由軟體與社群-參與國際社群經驗談 by Max](slides/20180812自由軟體與社群-參與國際社群經驗談.pdf)
 -   [AsianPeopleInTDF by Frank](slides/AsianPeopleInTDF.odp)
--   [打造適合大學生的自由軟體課程經驗 by NienTsu](slides/FOSS in College courses.pdf)
--   [GNOME Recipes & Local Wisdom by Kukuh Syafaat](slides/GNOME Recipes & Local Wisdom.pdf)
+-   [打造適合大學生的自由軟體課程經驗 by NienTsu](slides/FOSSinCollegeCourses.pdf)
+-   [GNOME Recipes & Local Wisdom by Kukuh Syafaat](slides/GNOME_Recipes_&_Local_Wisdom.pdf)
 -   [Desktop applications: life inside a sandbox by David King](slides/gnome_asia_sandboxing_2018.pdf)
--   [Introducing Silverblue by Matthias Clasen](slides/Introducing Silverblue.pdf)
+-   [Introducing Silverblue by Matthias Clasen](slides/Introducing_Silverblue.pdf)
 -   [Plan your testing by Kat](slides/Kat-testing-gnomeasia.pdf)
 -   [談談 GNOME 翻譯 by Zerngjia](slides/談談GNOME翻譯.odp)
 
