@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="container" style="width:75%; padding-top:100px;">
+            <h3 class="center-align">Slides can be found on our <a href="https://github.com/GNOME-Asia/2018.gnome.asia">GitHub reposity</a>.</h3>
             <h3 class="center-align"> Conference Day1, 8/11</h3>
             <table class="responsive-table">
                 <tbody>
